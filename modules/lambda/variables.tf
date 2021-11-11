@@ -37,7 +37,7 @@ variable "environment" {
 
 variable "memory_size" {
   description = "Amount of memory in MB your Lambda Function can use at runtime. Defaults to 128."
-  default     = 128
+  default     = 50
 }
 
 variable "publish" {
